@@ -16,9 +16,10 @@
 
 <body>
   <%# include header and footer partials %>
-    <% render 'shared/header'%>
-      <%= yield %>
-        <% render 'shared/footer'%>
+    <%= render 'shared/header'%>
+    <%= render 'shared/alerts'%>
+    <%= yield %>
+    <%= render 'shared/footer'%>
 </body>
 
 </html>
