@@ -32,7 +32,7 @@ gem 'pundit'
 
 #active admin theme
 gem 'active_admin_flat_skin'
-
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 # Use devise for authentication
 gem 'devise', '~> 4.2'
 # Use CoffeeScript for .coffee assets and views
