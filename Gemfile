@@ -19,14 +19,19 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Use Font Awesome
+gem 'font-awesome-sass'
 
-# Use activeadmin for CMS
+# Use active admin for CMS
 gem 'activeadmin'
 
 # Plus integrations with:
 gem 'cancan' # or cancancan
 gem 'draper'
 gem 'pundit'
+
+#active admin theme
+gem 'active_admin_flat_skin'
 
 # Use devise for authentication
 gem 'devise', '~> 4.2'
